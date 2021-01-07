@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCYiy3rsOhQ5aSBdOUG_pJN9AOIr3jH3qI",
+        authDomain: "onlineshooter-ce542.firebaseapp.com",
+        databaseURL: "https://onlineshooter-ce542.firebaseio.com",
+        projectId: "onlineshooter-ce542",
+        storageBucket: "onlineshooter-ce542.appspot.com",
+        messagingSenderId: "64592758654",
+        appId: "1:64592758654:web:7eec91c7bf1ed55553152f",
+        measurementId: "G-0HGNSTX99C"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+
+</body></html>
